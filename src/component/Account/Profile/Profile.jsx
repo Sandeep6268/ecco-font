@@ -72,7 +72,7 @@ const Profile = () => {
 
           // Fetch profile data from backend
           const res = await fetch(
-            "https://web-production-27d40.up.railway.app/api/profile/me/",
+            "https://ecco-back-4j3f.onrender.com/api/profile/me/",
             {
               headers: {
                 Authorization: `Bearer ${idToken}`,
