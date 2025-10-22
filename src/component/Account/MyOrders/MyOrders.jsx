@@ -32,7 +32,7 @@ const MyOrders = () => {
         try {
           const idToken = await firebaseUser.getIdToken();
           const response = await fetch(
-            "https://web-production-27d40.up.railway.app/api/orders/",
+            "https://ecco-back-4j3f.onrender.com/api/orders/",
             {
               headers: {
                 Authorization: `Bearer ${idToken}`,
